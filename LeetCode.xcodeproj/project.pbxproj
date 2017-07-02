@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C92E72F01F07660800187B0D /* Problem_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92E72EF1F07660800187B0D /* Problem_3.swift */; };
+		C9F1B67A1F084D150045BFBC /* Problem_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F1B6791F084D150045BFBC /* Problem_5.swift */; };
 		C9F3FD271F07457200805D13 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F3FD261F07457200805D13 /* main.swift */; };
 		C9F3FD2E1F07462C00805D13 /* Problem_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F3FD2D1F07462C00805D13 /* Problem_1.swift */; };
 		C9F3FD301F07463A00805D13 /* Problem_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F3FD2F1F07463A00805D13 /* Problem_2.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		C92E72EF1F07660800187B0D /* Problem_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_3.swift; sourceTree = "<group>"; };
+		C9F1B6791F084D150045BFBC /* Problem_5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_5.swift; sourceTree = "<group>"; };
 		C9F3FD231F07457200805D13 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F3FD261F07457200805D13 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C9F3FD2D1F07462C00805D13 /* Problem_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_1.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				C9F3FD2D1F07462C00805D13 /* Problem_1.swift */,
 				C9F3FD2F1F07463A00805D13 /* Problem_2.swift */,
 				C92E72EF1F07660800187B0D /* Problem_3.swift */,
+				C9F1B6791F084D150045BFBC /* Problem_5.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9F3FD301F07463A00805D13 /* Problem_2.swift in Sources */,
+				C9F1B67A1F084D150045BFBC /* Problem_5.swift in Sources */,
 				C92E72F01F07660800187B0D /* Problem_3.swift in Sources */,
 				C9F3FD2E1F07462C00805D13 /* Problem_1.swift in Sources */,
 				C9F3FD271F07457200805D13 /* main.swift in Sources */,
