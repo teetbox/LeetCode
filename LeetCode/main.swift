@@ -10,3 +10,6 @@ import Foundation
 
 print("Hello, World!")
 
+let s7 = Solution_7()
+print(s7.reverse(1534236469))
+print(Int32.max)

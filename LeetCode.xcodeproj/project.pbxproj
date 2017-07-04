@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C92E72F01F07660800187B0D /* Problem_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92E72EF1F07660800187B0D /* Problem_3.swift */; };
+		C9A0A2E61F0BDD070036591A /* Problem_7.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A0A2E51F0BDD070036591A /* Problem_7.swift */; };
 		C9F0ED2A1F0A845D003443C9 /* Problem_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F0ED291F0A845D003443C9 /* Problem_6.swift */; };
 		C9F1B67A1F084D150045BFBC /* Problem_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F1B6791F084D150045BFBC /* Problem_5.swift */; };
 		C9F3FD271F07457200805D13 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F3FD261F07457200805D13 /* main.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		C92E72EF1F07660800187B0D /* Problem_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_3.swift; sourceTree = "<group>"; };
+		C9A0A2E51F0BDD070036591A /* Problem_7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_7.swift; sourceTree = "<group>"; };
 		C9F0ED291F0A845D003443C9 /* Problem_6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_6.swift; sourceTree = "<group>"; };
 		C9F1B6791F084D150045BFBC /* Problem_5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_5.swift; sourceTree = "<group>"; };
 		C9F3FD231F07457200805D13 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +75,7 @@
 				C92E72EF1F07660800187B0D /* Problem_3.swift */,
 				C9F1B6791F084D150045BFBC /* Problem_5.swift */,
 				C9F0ED291F0A845D003443C9 /* Problem_6.swift */,
+				C9A0A2E51F0BDD070036591A /* Problem_7.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				C92E72F01F07660800187B0D /* Problem_3.swift in Sources */,
 				C9F3FD2E1F07462C00805D13 /* Problem_1.swift in Sources */,
 				C9F3FD271F07457200805D13 /* main.swift in Sources */,
+				C9A0A2E61F0BDD070036591A /* Problem_7.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
