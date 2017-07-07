@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C92E72F01F07660800187B0D /* Problem_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92E72EF1F07660800187B0D /* Problem_3.swift */; };
 		C9A0A2E61F0BDD070036591A /* Problem_7.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A0A2E51F0BDD070036591A /* Problem_7.swift */; };
+		C9C364A81F0F99A200DA367D /* Problem_14.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C364A71F0F99A200DA367D /* Problem_14.swift */; };
 		C9CBEABB1F0D1D9D0019FBFB /* Problem_9.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CBEABA1F0D1D9D0019FBFB /* Problem_9.swift */; };
 		C9CCB5091F0E62310020EF3B /* Problem_11.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CCB5081F0E62310020EF3B /* Problem_11.swift */; };
 		C9F0ED2A1F0A845D003443C9 /* Problem_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F0ED291F0A845D003443C9 /* Problem_6.swift */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		C92E72EF1F07660800187B0D /* Problem_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_3.swift; sourceTree = "<group>"; };
 		C9A0A2E51F0BDD070036591A /* Problem_7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_7.swift; sourceTree = "<group>"; };
+		C9C364A71F0F99A200DA367D /* Problem_14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_14.swift; sourceTree = "<group>"; };
 		C9CBEABA1F0D1D9D0019FBFB /* Problem_9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_9.swift; sourceTree = "<group>"; };
 		C9CCB5081F0E62310020EF3B /* Problem_11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_11.swift; sourceTree = "<group>"; };
 		C9F0ED291F0A845D003443C9 /* Problem_6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_6.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				C9A0A2E51F0BDD070036591A /* Problem_7.swift */,
 				C9CBEABA1F0D1D9D0019FBFB /* Problem_9.swift */,
 				C9CCB5081F0E62310020EF3B /* Problem_11.swift */,
+				C9C364A71F0F99A200DA367D /* Problem_14.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C364A81F0F99A200DA367D /* Problem_14.swift in Sources */,
 				C9F0ED2A1F0A845D003443C9 /* Problem_6.swift in Sources */,
 				C9F3FD301F07463A00805D13 /* Problem_2.swift in Sources */,
 				C9CCB5091F0E62310020EF3B /* Problem_11.swift in Sources */,
