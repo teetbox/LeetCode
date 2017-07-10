@@ -29,6 +29,27 @@ class Solution_11 {
         return maxArea
     }
     
+    func maxArea2(_ height: [Int]) -> Int {
+        var _max = 0
+        
+        var indexA = 0
+        var indexB = height.count - 1
+        
+        while indexA < indexB {
+            let area = min(height[indexA], height[indexA]) * (indexB - indexA)
+            
+            _max = max(area, _max)
+            
+            if height[indexA] > height[indexB] {
+                indexB -= 1
+            } else {
+                indexA += 1
+            }
+        }
+        
+        return _max
+    }
+    
     func maxAreaAdvanced(_ height: [Int]) -> Int {
         return computeMaxArea(height, p1: 0, p2: height.count - 1)
     }
