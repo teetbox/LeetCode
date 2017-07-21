@@ -2,7 +2,7 @@
 //  Problem_7.swift
 //  LeetCode
 //
-//  Created by Matt Tian on 7/4/17.
+//  Created by Tong Tian on 7/4/17.
 //  Copyright © 2017 Bizersoft. All rights reserved.
 //
 
