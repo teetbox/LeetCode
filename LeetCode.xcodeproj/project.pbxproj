@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACFE95661F2E1AAE009CC604 /* Problem_29.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFE95651F2E1AAE009CC604 /* Problem_29.swift */; };
 		C909FB701F10F93800C824AC /* Problem_15.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909FB6F1F10F93800C824AC /* Problem_15.swift */; };
 		C909FB721F11B47900C824AC /* Problem_16.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909FB711F11B47900C824AC /* Problem_16.swift */; };
 		C91175031F15AEAB009CEE88 /* Problem_18.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91175021F15AEAB009CEE88 /* Problem_18.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ACFE95651F2E1AAE009CC604 /* Problem_29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_29.swift; sourceTree = "<group>"; };
 		C909FB6F1F10F93800C824AC /* Problem_15.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_15.swift; sourceTree = "<group>"; };
 		C909FB711F11B47900C824AC /* Problem_16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_16.swift; sourceTree = "<group>"; };
 		C91175021F15AEAB009CEE88 /* Problem_18.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_18.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				C9A9C6CB1F203EA800C94B67 /* Problem_26.swift */,
 				C92F16501F222FF1006C9A60 /* Problem_27.swift */,
 				C9786A3A1F22CDC40018B747 /* Problem_28.swift */,
+				ACFE95651F2E1AAE009CC604 /* Problem_29.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				C909FB701F10F93800C824AC /* Problem_15.swift in Sources */,
 				C909FB721F11B47900C824AC /* Problem_16.swift in Sources */,
 				C9F0ED2A1F0A845D003443C9 /* Problem_6.swift in Sources */,
+				ACFE95661F2E1AAE009CC604 /* Problem_29.swift in Sources */,
 				C9F3FD301F07463A00805D13 /* Problem_2.swift in Sources */,
 				C91803C11F197D650093C79B /* Problem_21.swift in Sources */,
 				C97A4BBA1F17B3CB00D3BBBF /* Problem_19.swift in Sources */,
