@@ -10,3 +10,6 @@ import Foundation
 
 print("Hello, World!")
 
+let solution = Solution_30()
+
+_ = solution.findSubstring("abcabcabc", ["abc", "abc"])

@@ -24,6 +24,14 @@ import Foundation
 class Solution_30 {
     
     func findSubstring(_ s: String, _ words: [String]) -> [Int] {
+        guard words.count > 0 else { fatalError("Empty words") }
+        
+        let uniqueWords = Array(Set(words))
+        let wordLength = uniqueWords[0].count
+        
+        
+        
+        print(uniqueWords.count)
         
         return []
     }
