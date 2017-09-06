@@ -29,9 +29,8 @@ class Solution_30 {
         let uniqueWords = Array(Set(words))
         let wordLength = uniqueWords[0].count
         
-        
-        
         print(uniqueWords.count)
+        print(wordLength)
         
         return []
     }
