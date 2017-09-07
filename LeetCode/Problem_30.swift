@@ -27,10 +27,17 @@ class Solution_30 {
         guard words.count > 0 else { fatalError("Empty words") }
         
         let uniqueWords = Array(Set(words))
-        let wordLength = uniqueWords[0].count
+        let wordLength = uniqueWords[0].characters.count
         
-        print(uniqueWords.count)
-        print(wordLength)
+        var startIndex = 0
+        
+        
+        
+        return []
+    }
+    
+    private func getAllCombinedWords(_ words: [String]) -> [String] {
+        
         
         return []
     }
