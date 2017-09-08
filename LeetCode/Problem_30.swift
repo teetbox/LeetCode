@@ -31,13 +31,10 @@ class Solution_30 {
         
         var startIndex = 0
         
-        
-        
         return []
     }
     
     private func getAllCombinedWords(_ words: [String]) -> [String] {
-        
         
         return []
     }
