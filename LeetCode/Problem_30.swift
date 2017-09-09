@@ -26,42 +26,59 @@ class Solution_30 {
     func findSubstring(_ s: String, _ words: [String]) -> [Int] {
         guard words.count > 0 else { fatalError("Empty words") }
         
-        let uniqueWords = Array(Set(words))
+        let uniqueWords = words
         let wordLength = uniqueWords[0].characters.count
         
-        var startIndex = 0
+        let word = words[0]
+        let letters = Set(Array(word.characters))
         
-        return []
+        var startIndex = 0
+        var indexs: [Int] = []
+        while startIndex <= s.characters.count - wordLength {
+            let success = findSubstring(s, startIndex: startIndex, length: wordLength, words: uniqueWords)
+            
+            if (success) {
+                indexs.append(startIndex)
+                if letters.count > 1 {
+                    startIndex += wordLength
+                } else {
+                    startIndex += 1
+                }
+            } else {
+                startIndex += 1
+            }
+        }
+        
+        return indexs
     }
     
-    private func getAllCombinedWords(_ words: [String]) -> [String] {
+    private func findSubstring(_ s: String, startIndex: Int, length: Int, words: [String]) -> Bool {
+        if words.count == 0 {
+            return true
+        }
         
-        return []
+        var _words = words
+        var _startIndex = startIndex
+        if let word = substring(s, location: startIndex, length: length) {
+            if _words.contains(word) {
+                let index = _words.index(of: word)
+                _words.remove(at: index!)
+                _startIndex += length
+                return findSubstring(s, startIndex: _startIndex, length: length, words: _words)
+            }
+        }
+        
+        return false
+    }
+    
+    private func substring(_ s: String, location: Int, length: Int) -> String? {
+        guard s.characters.count >= location + length else {
+            return nil
+        }
+        let start = s.index(s.startIndex, offsetBy: location)
+        let end = s.index(s.startIndex, offsetBy: location + length)
+        
+        return s.substring(with: start..<end)
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

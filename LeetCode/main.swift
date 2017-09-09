@@ -12,4 +12,6 @@ print("Hello, World!")
 
 let solution = Solution_30()
 
-_ = solution.findSubstring("abcabcabc", ["abc", "abc"])
+let indexs = solution.findSubstring("barfoofoobarthefoobarman", ["bar","foo","the"])
+
+print(indexs)
