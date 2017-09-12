@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC5BA58E1F66CE4300735FBB /* Problem_31.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BA58D1F66CE4300735FBB /* Problem_31.swift */; };
+		ACC7D3101F680BE30041659A /* Problem_32.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7D30F1F680BE30041659A /* Problem_32.swift */; };
 		ACDF2A841F2F4D4D000263B4 /* Problem_30.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF2A831F2F4D4D000263B4 /* Problem_30.swift */; };
 		ACFE95661F2E1AAE009CC604 /* Problem_29.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFE95651F2E1AAE009CC604 /* Problem_29.swift */; };
 		C909FB701F10F93800C824AC /* Problem_15.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909FB6F1F10F93800C824AC /* Problem_15.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		AC5BA58D1F66CE4300735FBB /* Problem_31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_31.swift; sourceTree = "<group>"; };
+		ACC7D30F1F680BE30041659A /* Problem_32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_32.swift; sourceTree = "<group>"; };
 		ACDF2A831F2F4D4D000263B4 /* Problem_30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_30.swift; sourceTree = "<group>"; };
 		ACFE95651F2E1AAE009CC604 /* Problem_29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_29.swift; sourceTree = "<group>"; };
 		C909FB6F1F10F93800C824AC /* Problem_15.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem_15.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				ACFE95651F2E1AAE009CC604 /* Problem_29.swift */,
 				ACDF2A831F2F4D4D000263B4 /* Problem_30.swift */,
 				AC5BA58D1F66CE4300735FBB /* Problem_31.swift */,
+				ACC7D30F1F680BE30041659A /* Problem_32.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				C92E72F01F07660800187B0D /* Problem_3.swift in Sources */,
 				AC5BA58E1F66CE4300735FBB /* Problem_31.swift in Sources */,
 				C91EB45E1F13CF5B00EED7CB /* Problem_17.swift in Sources */,
+				ACC7D3101F680BE30041659A /* Problem_32.swift in Sources */,
 				C9F3FD2E1F07462C00805D13 /* Problem_1.swift in Sources */,
 				C9A9C6CC1F203EA800C94B67 /* Problem_26.swift in Sources */,
 				C9C3A4191F18FABA0010EADD /* Problem_20.swift in Sources */,
