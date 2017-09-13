@@ -29,7 +29,7 @@ class Solution_32 {
         
         guard p.count != 0 else { return 0 }
         
-        var maxCount = 0
+        var result:(previousIndex: Int, maxCount:Int) = (0,0)
         
         var i = 0
         var stack = Stack<Character>()
@@ -40,8 +40,8 @@ class Solution_32 {
             }
             switch pp {
             case .left:
-                i += 1
                 stack.push(pp.rawValue)
+                i += 1
                 continue
             case .right:
                 if let previousPP = stack.topElement() {
@@ -49,7 +49,9 @@ class Solution_32 {
                         i += 1
                         continue
                     } else {
-                        stack.pop()
+                        _ = stack.pop()
+                        
+                        
                     }
                 }
                 i += 1
