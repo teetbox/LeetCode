@@ -10,8 +10,3 @@ import Foundation
 
 print("Hello, World!")
 
-let solution = Solution_30()
-
-let indexs = solution.findSubstring("barfoofoobarthefoobarman", ["bar","foo","the"])
-
-print(indexs)

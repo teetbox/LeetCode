@@ -19,52 +19,13 @@ import Foundation
  */
 
 class Solution_32 {
-    enum PP: Character {
-        case left = "("
-        case right = ")"
-    }
     
     func longestValidParentheses(_ s: String) -> Int {
-        let p = Array(s.characters)
-        
-        guard p.count != 0 else { return 0 }
-        
-        var result:(previousIndex: Int, maxCount:Int) = (0,0)
-        
-        var i = 0
-        var stack = Stack<Character>()
-        while i < p.count {
-            let startIndex = i
-            guard let pp = PP(rawValue: p[i]) else {
-                fatalError("Unexpected Character")
-            }
-            switch pp {
-            case .left:
-                stack.push(pp.rawValue)
-                i += 1
-                continue
-            case .right:
-                if let previousPP = stack.topElement() {
-                    if previousPP == PP.left.rawValue {
-                        i += 1
-                        continue
-                    } else {
-                        _ = stack.pop()
-                        
-                        
-                    }
-                }
-                i += 1
-            }
-        }
+
         
         return 0
     }
     
-    private func pairPP(_ pp: [Character], index: Int, stack: Stack<Character>) -> Int {
-        
-        return 0
-    }
 }
 
 
