@@ -10,3 +10,6 @@ import Foundation
 
 print("Hello, World!")
 
+let s32 = Solution_32()
+
+print(s32.longestValidParentheses("()(())"))
