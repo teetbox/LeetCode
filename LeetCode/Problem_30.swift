@@ -78,7 +78,9 @@ class Solution_30 {
         let start = s.index(s.startIndex, offsetBy: location)
         let end = s.index(s.startIndex, offsetBy: location + length)
         
-        return s.substring(with: start..<end)
+//        return s.substring(with: start..<end)
+        // Swift 4
+        return String(s[start..<end])
     }
     
 }

@@ -31,7 +31,9 @@ class Solution_28 {
             let start = haystack.index(haystack.startIndex, offsetBy: index)
             let end = haystack.index(start, offsetBy: needleCount)
             
-            let subString = haystack.substring(with: start..<end)
+//            let subString = haystack.substring(with: start..<end)
+            // Swift 4
+            let subString = String(haystack[start..<end])
             if subString == needle {
                 return index
             }

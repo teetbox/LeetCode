@@ -36,8 +36,9 @@ class Solution_14 {
         guard prefix.endIndex < string.endIndex else { return prefix }
         
         let index = string.index(prefix.endIndex, offsetBy: 2)
-        let _prefix = string.substring(to: index)
-        
+//        let _prefix = string.substring(to: index)
+        // Swift 4
+        let _prefix = String(string[...index])
         return string.hasPrefix(_prefix) ? oneMorePrefix(string, prefix: _prefix) : prefix
     }
     

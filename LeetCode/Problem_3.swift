@@ -28,7 +28,9 @@ class Solution_3 {
             if substring.characters.contains(letter) {
                 let index = substring.characters.index(of: letter)!
                 let nextIndex = substring.index(after: index)
-                substring = substring.substring(from: nextIndex)
+//                substring = substring.substring(from: nextIndex)
+                // Swift 4
+                substring = String(substring[nextIndex...])
             }
             
             substring += String(letter)
