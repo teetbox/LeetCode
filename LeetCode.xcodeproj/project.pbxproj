@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC1319FA1F7680DD00C37CB2 /* Problem_35.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1319F91F7680DD00C37CB2 /* Problem_35.swift */; };
 		AC5BA58E1F66CE4300735FBB /* Problem_31.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BA58D1F66CE4300735FBB /* Problem_31.swift */; };
 		ACC7D3101F680BE30041659A /* Problem_32.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7D30F1F680BE30041659A /* Problem_32.swift */; };
 		ACDF2A841F2F4D4D000263B4 /* Problem_30.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDF2A831F2F4D4D000263B4 /* Problem_30.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AC1319F91F7680DD00C37CB2 /* Problem_35.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_35.swift; sourceTree = "<group>"; };
 		AC5BA58D1F66CE4300735FBB /* Problem_31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_31.swift; sourceTree = "<group>"; };
 		ACC7D30F1F680BE30041659A /* Problem_32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_32.swift; sourceTree = "<group>"; };
 		ACDF2A831F2F4D4D000263B4 /* Problem_30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem_30.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				ACC7D30F1F680BE30041659A /* Problem_32.swift */,
 				ACE04F011F6E48E1009AAB70 /* Problem_33.swift */,
 				C9EA003E1F74809600954CA2 /* Problem_34.swift */,
+				AC1319F91F7680DD00C37CB2 /* Problem_35.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				C9F3FD2E1F07462C00805D13 /* Problem_1.swift in Sources */,
 				C9A9C6CC1F203EA800C94B67 /* Problem_26.swift in Sources */,
 				C9C3A4191F18FABA0010EADD /* Problem_20.swift in Sources */,
+				AC1319FA1F7680DD00C37CB2 /* Problem_35.swift in Sources */,
 				C9F3FD271F07457200805D13 /* main.swift in Sources */,
 				C98D42221F1CFA3300FECB41 /* Problem_23.swift in Sources */,
 				ACDF2A841F2F4D4D000263B4 /* Problem_30.swift in Sources */,
